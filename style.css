@@ -1,0 +1,65 @@
+body {
+  background: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: 16ox;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 10px 10px 0px 2px #000000;
+  border: 1px solid;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  background: hsl(47, 88%, 63%);
+  font-weight: 800;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.card-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.card-subtitle {
+  color: hsl(0, 0%, 42%);
+  font-size: 18px;
+}
+
+.card-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.card-avatar-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.card-avatar-title {
+  font-weight: 800;
+  font-size: 18px;
+}
